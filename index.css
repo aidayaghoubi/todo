@@ -1,107 +1,109 @@
-body{
-    background-color: #1A374D;
-    font-family: sans-serif;
+body {
+  background-color: #1a374d;
+  font-family: sans-serif;
 }
 
-.columns{
-  
-    padding: 25px 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    position: relative;
-   
+.columns {
+  padding: 25px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
-#addbox{
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+#addbox {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.box{
-    width: 32%;
-    height: 500px;
-    background-color: aquamarine;
-    box-shadow: 5px 5px 10px #0c1f2e;
-    border-radius: 31px;
+.box {
+  width: 32%;
+  height: auto;
+  background-color: aquamarine;
+  box-shadow: 5px 5px 10px #0c1f2e;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.wrapper{
-    margin-top: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.wrapper {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.title{
-    position: absolute;
-    top: -77px;
-    transform: translate(169px,-9px);
-    font-size: 38px;
-    font-weight: bold;
-    color: #919EA8;
+.title {
+  position: absolute;
+  top: -77px;
+
+  font-size: 38px;
+  font-weight: bold;
+  color: #919ea8;
 }
-.todo-box{
-    background-color: #406882;
+.todo-box {
+  background-color: #406882;
 }
-.is-doing-box{
-    background-color: #6998AB;
+.is-doing-box {
+  background-color: #6998ab;
 }
-.done-box{
-    background-color: #B1D0E0;
+.done-box {
+  background-color: #b1d0e0;
 }
-#add-todo{
-    background-color: transparent;
-    border: none;
-    height: 50px;
-    border-bottom: 3px solid #6998AB;
-    width: 450px;
-    font-size: 28px;
-    color: #406882;
-    padding: opx 15px;
+#add-todo {
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  border-bottom: 3px solid #6998ab;
+  width: 450px;
+  font-size: 28px;
+  color: #406882;
+  padding: opx 15px;
 }
-#addForm{
-    padding: 25px 35px;
+#addForm {
+  padding: 25px 35px;
 }
-#expired-date{
-    background-color: transparent;
-    color: #B1D0E0;
-    font-size: 22px;
-    border: none;
-    transform: translate(9px, -2px);
+#expired-date {
+  background-color: transparent;
+  color: #b1d0e0;
+  font-size: 22px;
+  border: none;
+  transform: translate(9px, -2px);
 }
-.mytodo button{
-    background-color: transparent;
-    color: #022333;
-    font-size: 23px;
-    border: none;
-    margin: 0 2px;
+.mytodo button {
+  background-color: transparent;
+  color: #022333;
+  font-size: 23px;
+  border: none;
+  margin: 0 2px;
 }
-.main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.mytodo{
-    
-    padding: 4px 35px;
-    border-bottom:1px solid #726c6c;
+.mytodo {
+    width: 85%;
+  padding: -1px 35px;
+  border-bottom: 1px solid #726c6c;
 }
-.main p{
-    font-size: 24px;
-    color: #022333;
-    font-weight: bold;
+.main p {
+  font-size: 24px;
+  color: #022333;
+  font-weight: bold;
 }
-.dates span,p{
-    font-size: 12px;
+.dates span,
+p {
+  font-size: 12px;
 }
-.dates{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
